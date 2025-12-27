@@ -71,8 +71,3 @@ It also serves as a **stepping stone toward RFIC and analog CMOS design**, where
 
 ---
 
-## Author
-
-**[Your Name]**  
-Electrical Engineering  
-Focus: Analog / RF / High-Frequency Circuit Design
