@@ -51,17 +51,6 @@ Despite parasitic and device-level non-idealities, the cascode shows a **clear b
 
 ---
 
-## Why This Project Matters
-
-This project directly reflects **real analog/RF design tradeoffs**:
-- Device parasitics vs topology choice  
-- Theory vs simulation vs measurement  
-- Bandwidth extension techniques used in **RF front-ends, LNAs, and analog ICs**
-
-It also serves as a **stepping stone toward RFIC and analog CMOS design**, where cascode structures are ubiquitous.
-
----
-
 ## Possible Extensions
 
 - Replace BJTs with **MOSFET cascodes**
