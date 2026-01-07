@@ -32,7 +32,7 @@ Despite parasitic and device-level non-idealities, the cascode shows a **clear b
 
 ---
 
-## Key Concepts Demonstrated
+## Key Concepts regarding high frequency behavior
 
 - Miller effect and capacitance partitioning
 - Dominant-pole frequency estimation
