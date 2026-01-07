@@ -2,6 +2,7 @@
 ---
 
 ## Technical Overview
+<img width="1846" height="1031" alt="image" src="https://github.com/user-attachments/assets/5f8dc7e1-7832-4db0-9acb-535317842357" />
 
 ### Common-Emitter Amplifier
 - **Bias current:** 10 mA  
