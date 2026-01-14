@@ -2,7 +2,6 @@
 ---
 
 ## Technical Overview
-<img width="1846" height="1031" alt="image" src="https://github.com/user-attachments/assets/5f8dc7e1-7832-4db0-9acb-535317842357" />
 
 ### Common-Emitter Amplifier
 - **Bias current:** 10 mA  
@@ -14,6 +13,9 @@
 - Hand analysis: ≈ **600 kHz**
 - LTspice simulation: ≈ **740 kHz**
 - Measurement: ≈ **540 kHz**
+  
+<img width="2556" height="1251" alt="ce_bode_magnitude" src="https://github.com/user-attachments/assets/679047e6-da4f-44d4-abbd-5b7497bdd1d5" />
+
 
 This confirms that **Miller effect dominates the high-frequency response** of the CE stage.
 
@@ -25,9 +27,13 @@ This confirms that **Miller effect dominates the high-frequency response** of th
 - Suppresses Miller multiplication by **isolating the collector swing**
 
 **Upper cutoff frequency**
-- Hand analysis: ≈ **4.8 MHz**
-- LTspice simulation: ≈ **4.4 MHz**
+- Hand analysis: ≈ **480 MHz**
+- LTspice simulation: ≈ **440 MHz**
 - Measurement: ≈ **1.2 MHz**
+  
+<img width="2556" height="1251" alt="cascode-ce-bode-plot" src="https://github.com/user-attachments/assets/2a366e8f-3224-4267-a1be-b9bb118cc2e4" />
+
+
 
 Despite parasitic and device-level non-idealities, the cascode shows a **clear bandwidth improvement** over the CE amplifier.
 
